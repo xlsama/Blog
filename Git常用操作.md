@@ -1,3 +1,5 @@
+# Git常用操作
+
 ## 设置全局配置和单个仓库的用户名和邮箱
 
 ### 全局
@@ -25,4 +27,20 @@ git config user.email "name@example.com"
 ```shell
 git config --list # 查看当前配置, 在当前项目下面查看的配置是全局配置+当前项目的配置, 使用的时候会优先使用当前项目的配置
 ```
+
+## 删除远程仓库文件
+
+```zsh
+git rm test.txt
+```
+
+```zsh
+git rm -r node_modules
+```
+
+
+
+
+
+
 
